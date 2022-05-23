@@ -1,0 +1,70 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+.hero {
+    background-image: url("images/warszawawidok.webp");
+    background: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    margin-top: 180px;
+}
+h1, h2 {
+    background: darkblue;
+    color: lightblue;
+    
+    
+}
+.activities {
+    color: darkblue;
+    margin: 40px auto 70px;
+}
+.activities-images {
+    margin: 50px auto 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.activities-columns {
+    display: block;
+    flex-direction: column;
+    
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(lightblue, lightpink);
+}
+span {
+    font-weight: bold;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.guide-img {
+    width: 150px;
+}
+.guide {
+    width: 450px;
+    margin: 0px auto 70px;
+    display: flex;
+    background: lightsteelblue;
+    color: whitesmoke;
+    text-shadow: 0 0 1px;
+    
+}
